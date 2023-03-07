@@ -3,10 +3,20 @@ import org.w3c.dom.ls.LSOutput;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(calculateGrade(77));
+        System.out.println(calculateGrade(90));
+        System.out.println(calculateGrade(79));
+        System.out.println(fizzbuzz(3));
         System.out.println(fizzbuzz(5));
-        System.out.println(frontback("veryveryverylongword"));
-        System.out.println(twoAsOne(3,1,4));
+        System.out.println(fizzbuzz(15));
+        System.out.println(fizzbuzz(16));
+        System.out.println(frontback("hello"));
+        System.out.println(frontback("hi"));
+        System.out.println(frontback("g"));
+        System.out.println(twoAsOne(1,2,3));
+        System.out.println(twoAsOne(4,11,-7));
+        System.out.println(twoAsOne(4,6,12));
+        System.out.println(endUp("hello"));
+        System.out.println(endUp("for sure"));
         System.out.println(endUp("gg"));
     }
     // Question 1 - calculateGrade
